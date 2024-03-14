@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.CoreEngine", "AIRecommender.CoreEngine\AIRecommender.CoreEngine.csproj", "{2681D35B-E43F-4B34-9346-CFE3A4000A74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Engine", "Core Engine", "{15C24EF6-1857-46B9-9AF2-7FBB80C51AC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data aggrigator", "Data aggrigator", "{50FBCA35-2A8F-4ADE-9256-1C353E11C86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.DataAggrigator", "AIRecommender.DataAggrigator\AIRecommender.DataAggrigator.csproj", "{8B4D2133-7D7B-4C44-99C3-4912DA6289D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data loader", "Data loader", "{690FDB09-E2CE-463C-8716-2B0D5709E6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.DataLoader", "AIRecommender.DataLoader\AIRecommender.DataLoader.csproj", "{037F979C-F83B-4F5E-9608-B0137A783D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C4D924F8-90DA-46B1-AAEF-D9BB86B8FD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIClient", "UIClient", "{E18577A9-965E-42B2-822C-A0980AF3121B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.UIclient", "AIRecommender.UIclient\AIRecommender.UIclient.csproj", "{900E6B14-D6B6-45BC-852F-160A6C7B0323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommender", "Recommender", "{78EE56CE-DE0E-4010-88D3-1A9EF27D0632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.REcommender", "AIRecommender.REcommender\AIRecommender.REcommender.csproj", "{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{A218C815-3ED3-4E12-A0FC-083152CEBF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.Cache", "AIRecommender.Cache\AIRecommender.Cache.csproj", "{CF8F4373-0A95-4215-9AB3-F3D748955F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book Data Service", "Book Data Service", "{71679DF1-C881-4821-884F-066458A2E19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIRecommender.BooksDataservice", "AIRecommender.BooksDataservice\AIRecommender.BooksDataservice.csproj", "{3B3326EB-D163-482C-91EC-A6518BCF2661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLoaderFactory", "DataLoaderFactory\DataLoaderFactory.csproj", "{37546296-548E-4F75-913E-F5ADADE8B657}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2681D35B-E43F-4B34-9346-CFE3A4000A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2681D35B-E43F-4B34-9346-CFE3A4000A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2681D35B-E43F-4B34-9346-CFE3A4000A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2681D35B-E43F-4B34-9346-CFE3A4000A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4D2133-7D7B-4C44-99C3-4912DA6289D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4D2133-7D7B-4C44-99C3-4912DA6289D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4D2133-7D7B-4C44-99C3-4912DA6289D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4D2133-7D7B-4C44-99C3-4912DA6289D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037F979C-F83B-4F5E-9608-B0137A783D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037F979C-F83B-4F5E-9608-B0137A783D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037F979C-F83B-4F5E-9608-B0137A783D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037F979C-F83B-4F5E-9608-B0137A783D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900E6B14-D6B6-45BC-852F-160A6C7B0323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900E6B14-D6B6-45BC-852F-160A6C7B0323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900E6B14-D6B6-45BC-852F-160A6C7B0323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900E6B14-D6B6-45BC-852F-160A6C7B0323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8F4373-0A95-4215-9AB3-F3D748955F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8F4373-0A95-4215-9AB3-F3D748955F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8F4373-0A95-4215-9AB3-F3D748955F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8F4373-0A95-4215-9AB3-F3D748955F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3326EB-D163-482C-91EC-A6518BCF2661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3326EB-D163-482C-91EC-A6518BCF2661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3326EB-D163-482C-91EC-A6518BCF2661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3326EB-D163-482C-91EC-A6518BCF2661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37546296-548E-4F75-913E-F5ADADE8B657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37546296-548E-4F75-913E-F5ADADE8B657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37546296-548E-4F75-913E-F5ADADE8B657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37546296-548E-4F75-913E-F5ADADE8B657}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2681D35B-E43F-4B34-9346-CFE3A4000A74} = {15C24EF6-1857-46B9-9AF2-7FBB80C51AC6}
+		{8B4D2133-7D7B-4C44-99C3-4912DA6289D6} = {50FBCA35-2A8F-4ADE-9256-1C353E11C86B}
+		{037F979C-F83B-4F5E-9608-B0137A783D99} = {690FDB09-E2CE-463C-8716-2B0D5709E6AD}
+		{1CC907CF-EE8B-4A17-83AA-E6BC59E6930F} = {C4D924F8-90DA-46B1-AAEF-D9BB86B8FD0D}
+		{900E6B14-D6B6-45BC-852F-160A6C7B0323} = {E18577A9-965E-42B2-822C-A0980AF3121B}
+		{58CA5C41-4926-43A3-BC2A-72DF0ECF0B2D} = {78EE56CE-DE0E-4010-88D3-1A9EF27D0632}
+		{CF8F4373-0A95-4215-9AB3-F3D748955F26} = {A218C815-3ED3-4E12-A0FC-083152CEBF8A}
+		{3B3326EB-D163-482C-91EC-A6518BCF2661} = {71679DF1-C881-4821-884F-066458A2E19D}
+		{37546296-548E-4F75-913E-F5ADADE8B657} = {71679DF1-C881-4821-884F-066458A2E19D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E47D0421-A71E-4D77-A8F0-4FB0A8482099}
+	EndGlobalSection
+EndGlobal
